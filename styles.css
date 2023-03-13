@@ -1,0 +1,84 @@
+
+h1 {
+
+    font-size: 60px;
+}
+
+p {
+    font-size: 30px;
+    align-items: center;
+}
+
+hr {
+    border: 1px black dotted;
+}
+
+h2{
+    font-size: 30px;
+}
+
+img {
+    width: 100px;
+    height: 75px;
+}
+
+
+button {
+    background-color:bisque;
+}
+
+button:hover {
+    color: darkblue;
+}
+
+span {
+    text-align: center;
+    font-size: 80px;
+    border: 5px black solid;
+    
+}
+
+div {
+    text-align: center;
+}
+
+table {
+    border: 1px black solid;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    text-align: center;
+}
+
+tr {
+    border: 1px black solid;
+}
+
+td {
+    border: 1px black solid;
+
+}
+
+.checkoutbtn {
+    font-size: 20px;
+    background-color: rgb(26, 135, 115);
+    color: rgb(184, 173, 158);
+    float: right;
+    border: 2px black solid;
+    padding-right: 3%;
+    padding-left: 3%;
+    margin-right: 9%;
+    margin-bottom: 10%;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ8NDQ0NFREWFhURFRMYHSggGBoxGxUVITEhMSkrLi4uFx8zODM4NygtOisBCgoKDQ0NDw0NDysZFRkrKy0rLTcrKzctKzcrNysrLS0rKy0tKzcrLSsrKysrKysrKysrKysrKysrKysrKysrK//AABEIARMAtwMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAAAAQIDBAUG/8QAHBABAQEBAQEBAQEAAAAAAAAAAAERAgMSBCET/8QAGgEBAQEBAQEBAAAAAAAAAAAAAAECAwQFBv/EABwRAQEBAQEBAAMAAAAAAAAAAAABEQISAwQhMf/aAAwDAQACEQMRAD8A+I+S+WuD5e3H5n0wvCbw6Lym8mNTpz3hfl5r+WvjymHXf6dn5PN6/wCbl5/5o9LxrNj5f5HWu3zX13/GE6Z+vqy8PjaXv6PM/T6Nvf1ef7dmPd8fnjm9btY9Rr1WXTWPocopYqkY6JwGSYpJWlMVFia0qKjcZ0HQNvUkPDhu7wpsTY0wrA1ljXzibD5ot/ju8K7fP0eX5+jaeyWPJ389ej17Of19nL17sO/ZnynHxa+vq5PTtPfoyvS49fHzxVqLStTo7SKCdGi4ZAIERlWcUqmqTUaiOiOhlt6sUUN6XhBUyohVFXUVGoX0P9KVRUbkir6o67TU2o3OYd6Tek2laNyK0ajRqLi9Go09DF6NRp6JhggGBNMqzVRQKGW3rRSYp6HgBUyoJqapNRqIrOtKzqOkRUVdRUdImptOpqNwWlpVOo1i9PUacoYvT1GnKJitBGqAqZVBNAoRp6sVERUdnhqiBCFU1VTRqIqK0rOstxHTOtKio6RnU1dTYjpEVK8LEa1Iivk8F0oavkfImlDGAQACgmgUkV6kqmcXHV46oEFZCapNRU1FXUVG4iosaVOI3GdhWNLCwalZ4MaYPlF9M/k/lpOTnKp6ROR8tJyeCemPym8t8K8mLOnOK165ZWI3KmkKEaejKqM5VyujyWL0JAiqkACqadKjUTgxUh4i6ixONcLA1GDF4eBqPk5F4eCajDxch4qaz+U3lrhWBKxsZd8umxl1EsdOenJ1A09OTYx2ldEqpWcqpW3CxenqNGjOL0anRqmGQ0AcUXK4M1JYvCwNThyHipA1OKkPDkVnSkPDw8E1OJsWVgSs7GfUbWM+ojcrn75C+4GXaVEqpWcqtCxejU6NExWmjT0TFGmU1Rpy0jLhrFYoBkMgyOKGqQlQZoMBUKpqqmixNR00qOkbjHoH0GXSOWK1ENl1sVp6jRqmL09Rp6Ji9OVGnKJjXitpXPzWvNWOfUaApRqsGJU6NBpKqVlKuVWbFmjT0TDqQVoFU9HU0bjPoDoMukccNMNl3PRpEGK09Qehi9OVGnozjSVpzWErTmqzY3lGs5T1XPF6Wo09DF6qVlpyqmNtPWcpyjOL0tTo0MO1NFpUWJ6BdUI3HHAUDD0GWggPRpAVR6kxMVqpUHKrNjWU9Zynqs4vT1GnomL09Ro0TGkqtZaeqmNNGo0aJi7U2lpaGChNoRpywFDZdwQAAAAYIAqGk5RF6aD1UxenqNMZxWnqBqmL09Z6eiYvT1no0MaaWp0aGHaE2gXHPDTDYdTEIRQ6R1IGZADMgIqU0mIo4k4qYpNVCohaNTS1GsXo1Gnppi9Go0aupirQnSTVxnDTFI3QcIRUOkdIAZADMjAGQENUSYKlNJ6rKekavpl0jUVo1GjUaxejUaNDF6EaAwQ0wxaZpGiKACgAAGCAigQAzICKGkAFrPpdrPpFidLRSR0PRqRoYrQnQGLlUiHKqKBAQ9NJgZkBDBGoAAAikgRRaQAVHSk1GoilTpVG4QBUUaCCK0MgrCgQVDMADMAQAAQAAAYAAjAEmgCxFKgI1E0gEaiaABp//9k=');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+footer {
+    float: bottom;
+}
